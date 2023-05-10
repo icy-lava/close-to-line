@@ -15,7 +15,7 @@ L.draw = function()
   G.setLineWidth(8)
   G.setColor(.1, .5, .7)
   G.print('score: ' .. (p - p % 1))
-  if t - S > 30 then
+  if t - S > 15 then
     return 
   end
   local x = 400 + 400 * s(t + 2 * s(t + 3 * s(t)))
