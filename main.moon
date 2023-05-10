@@ -15,7 +15,7 @@ L.draw=->
 	G.setLineWidth 8
 	G.setColor.1,.5,.7
 	G.print 'score: '..(p-p%1)
-	return if t-S>30
+	return if t-S>15
 	x=400+400*s t+2*s t+3*s t
 	y=300+300*s t+3*s t+5*s t
 	X=400+400*s t+4*s t+4*s t
